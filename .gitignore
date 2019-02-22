@@ -1,0 +1,4 @@
+node_modules/
+
+# Should not be ignored on real project
+yarn.lock

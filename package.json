@@ -1,0 +1,23 @@
+{
+  "name": "tslint-config-derniercri",
+  "version": "1.0.0",
+  "description": "Dernier Cri TSlint config",
+  "main": "index.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/derniercri/tslint-config-derniercri.git"
+  },
+  "author": "Jean-Serge Monbailly <jean-serge@derniercri.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/derniercri/tslint-config-derniercri/issues"
+  },
+  "homepage": "https://github.com/derniercri/tslint-config-derniercri",
+  "dependencies": {
+    "tslint": "^5.12.1",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-config-standard": "^8.0.1",
+    "tslint-react": "^3.6.0",
+    "typescript": "^3.3.3333"
+  }
+}
