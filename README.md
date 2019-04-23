@@ -3,7 +3,7 @@
 Install the package:
 
 ```bash
-yarn add git+https://github.com/derniercri/tslint-config-derniercri.git
+yarn add -D git+https://github.com/derniercri/tslint-config-derniercri.git
 ```
 
 Create or edit a `tslint.json` file at project's root :
