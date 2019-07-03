@@ -4,13 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "lint": "tslint '*.ts{,x}'"
+    "lint": "eslint '*.{t,j}s{,x}'"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "tslint": "^5.12.1",
-    "tslint-config-derniercri": "file:..",
+    "eslint": "^5.12.1",
+    "eslint-config-derniercri": "file:..",
     "typescript": "^3.3.3333"
   }
 }

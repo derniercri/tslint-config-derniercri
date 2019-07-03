@@ -1,17 +1,17 @@
-# tslint-config-derniercri
+# eslint-config-derniercri
 
 Install the package:
 
 ```bash
-yarn add -D git+https://github.com/derniercri/tslint-config-derniercri.git
+yarn add -D git+https://github.com/derniercri/eslint-config-derniercri.git
 ```
 
-Create or edit a `tslint.json` file at project's root :
+Create or edit a `.eslintrc` file at project's root :
 
 ```json
 {
   "extends": [
-    "tslint-config-derniercri"
+    "derniercri"
   ]
 }
 ```
@@ -19,7 +19,7 @@ Create or edit a `tslint.json` file at project's root :
 Add the following script to your `package.json`
 
 ```json
-"lint": "tslint 'src/**/*.ts{,x}'"
+"lint": "tslint 'src/**/*.{t,j}s{,x}'"
 ```
 
 And voilà !
