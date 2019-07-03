@@ -1,9 +1,9 @@
-# eslint-config-derniercri-typescript
+# eslint-config-derniercri
 
 Install the package:
 
 ```bash
-yarn add -D git+https://github.com/derniercri/eslint-config-derniercri-typescript.git
+yarn add -D git+https://github.com/derniercri/eslint-config-derniercri.git
 ```
 
 Create or edit a `.eslintrc` file at project's root :
@@ -11,7 +11,7 @@ Create or edit a `.eslintrc` file at project's root :
 ```json
 {
   "extends": [
-    "eslint-config-derniercri-typescript"
+    "derniercri"
   ]
 }
 ```

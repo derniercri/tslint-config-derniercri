@@ -1,5 +1,5 @@
 {
   "extends": [
-    "derniercri-typescript"
+    "derniercri"
   ]
 }
