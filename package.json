@@ -1,23 +1,26 @@
 {
-  "name": "tslint-config-derniercri",
+  "name": "eslint-config-derniercri-typescript",
   "version": "1.0.0",
-  "description": "Dernier Cri TSlint config",
+  "description": "Dernier Cri ESLint config for TypeScript",
   "main": "index.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/derniercri/tslint-config-derniercri.git"
+    "url": "git+https://github.com/derniercri/eslint-config-derniercri-typescript.git"
   },
   "author": "Jean-Serge Monbailly <jean-serge@derniercri.io>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/derniercri/tslint-config-derniercri/issues"
+    "url": "https://github.com/derniercri/eslint-config-derniercri-typescript/issues"
   },
-  "homepage": "https://github.com/derniercri/tslint-config-derniercri",
+  "homepage": "https://github.com/derniercri/eslint-config-derniercri-typescript",
   "dependencies": {
-    "tslint": "^5.12.1",
-    "tslint-config-prettier": "^1.18.0",
-    "tslint-config-standard": "^8.0.1",
-    "tslint-react": "^3.6.0",
+    "@typescript-eslint/eslint-plugin": "^1.11.0",
+    "@typescript-eslint/parser": "^1.11.0",
+    "eslint": "^6.0.1",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.14.2",
+    "prettier": "^1.18.2",
     "typescript": "^3.3.3333"
   }
 }
